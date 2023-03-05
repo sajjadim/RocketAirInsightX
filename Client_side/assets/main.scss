@@ -1,0 +1,30 @@
+
+@import "Scss/_Result.scss";
+@import "Scss/_Stars.scss";
+@import "Scss/_Animations.scss";
+@import "Scss/_Form.scss";
+@import "Scss/_Form_inputs.scss";
+@import "Scss/_Form_inputs.scss";
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Work Sans', sans-serif;
+    
+   
+    // background-color: black !important;
+    // linear-gradient(180deg, rgb(14, 2, 26) 31%, hsla(266, 84%, 7%, 1) 91%)
+    background: linear-gradient(180deg, rgb(14, 2, 26) 31%, hsla(266, 84%, 7%, 1) 91%) ;
+    background-size: cover;
+    height:100vh;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    // overflow-x: hidden;
+    overflow-y: hidden;
+    position:relative;
+}
+

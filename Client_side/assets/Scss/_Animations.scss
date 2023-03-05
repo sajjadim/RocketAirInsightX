@@ -1,0 +1,55 @@
+#landing {
+    height: 100%;
+    width: 100%;
+
+}
+
+@keyframes fadeLanding {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    backdrop-filter: blur(2px);
+}
+#earth {
+    position: fixed;
+    z-index: 2;
+    transform-style: preserve-3d;
+    perspective: 500px;
+    transform: rotateZ(90deg);
+    animation: earth_animation;
+    animation-duration: 120s;
+    animation-iteration-count: infinite;
+    object-fit: cover;
+    // width: 450px;
+    height: 700px;
+    // bottom: 0px;
+    left: -10%;
+    top: 30%;
+    opacity: 0.8;
+    // width: 200px;
+    // height: 200px;
+    // border-radius: 50%;
+  
+
+}
+@keyframes earth_animation {
+    0% {
+        transform: rotateZ(0deg);
+    }
+  
+    50% {
+        transform: rotateZ(180deg);
+    }
+    100% {
+        transform: rotateZ(0deg);
+    }
+  }

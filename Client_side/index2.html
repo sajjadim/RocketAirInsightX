@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Rocket App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Work+Sans:wght@800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+
+
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <link href="assets/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <section class="result_container">
+        <section id="landing">
+            <div class="stars" id="stars-group-1"></div>
+            <div class="stars" id="stars-group-2"></div>
+            <div class="stars" id="stars-group-3"></div>
+            <div class="stars" id="stars-group-4"></div>
+            <div class="stars" id="stars-group-5"></div>
+            <div class="stars" id="stars-group-6"></div>
+            <img id="earth" src="assets/Images/earth5.png" alt="">
+            <div class="overlay"></div>
+            <div
+                class="RowForm col-12 mb-2 mt-3 mt-lg-0 mb-lg-0 d-flex flex-column justify-content-center flex-lg-row justify-content-lg-evenly align-items-center ">
+                <div class="titleTextContainer rainbow-text col-11 col-lg-7 text-center text-lg-start ">
+                    <h1>Rocket Emission Prediction</h1>
+                </div>
+                <div class="FormContainer mt-3 mb-3 mt-lg-0  mb-lg-0 col-11  col-lg-4">
+
+                    <div class="FormComponentContainer">
+                        <div class="InputsContainer">
+                            <div class="inputBox">
+                                <select id="fuels" required>
+                                    <option value="0">Kerosene</option>
+                                    <option value="1">Cryogenic</option>
+                                    <option value="2">Solid</option>
+                                    <option value="3">Hypergolic</option>
+                                    <option value="4">Liquid</option>
+                                </select>
+                                <span>Fuel Type</span>
+                            </div>
+
+                            <div class="inputBox">
+                                <input class="maxaltitude" type="text" required>
+                                <span>Max Altitude (KM)</span>
+                            </div>
+
+                            <div class="inputBox">
+                                <input class="fuelmass" type="text" required>
+                                <span>Total Fuel Mass (KG)</span>
+                            </div>
+
+                            <div class="inputBox">
+                                <input class="propellantMass" type="text" required>
+                                <span>Propellant Mass (KG)</span>
+                            </div>
+
+                            <div class="inputBox">
+                                <input class="launchsite" type="text" required>
+                                <span>Launch Site</span>
+                            </div>
+
+                        </div>
+
+                        <div class="ButtonContainer">
+                            <button class="LaunchButton">
+                                <span class="text">LAUNCH 🚀</span>
+                                <span>WITHOUT POLLUTION!</span>
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+
+
+                </div>
+
+
+            </div>
+        </section>
+
+        <section id="result">
+            <div class="col-12 pollution-result-container d-flex flex-column flex-lg-row justify-content-around">
+                <div class="col-6 result-image"><img src="assets/Images/rocket.webp" alt=""></div>
+                <div class="col-6 pollution-text d-flex flex-column text-right">
+                    <h2 class="Pollution-title">Estimated Pollution is : </h2>
+                    <p>This result is by our Gradient Boosting Regressor Model</p>
+                </div>
+            </div>
+
+            <div class="col-12 pollution-result-container d-flex flex-column flex-lg-row justify-content-around">
+                <div class="col-12 col-lg-6 pollution-text d-flex flex-column text-right ">
+                    <h2>AI generated suggestions for reducing pollution by rockets </h2>
+                    <p class="chatgptresult"> </p>
+                </div>
+                <div class=" col-12 col-lg-6 result-image"><img src="assets/Images/rocket2.webp" alt=""></div>
+            </div>
+
+            
+            <div class="col-12 pollution-result-container d-flex flex-column flex-lg-row justify-content-around">
+                <div class="col-6 result-image"><img src="assets/Images/PolarBear.webp" alt=""></div>
+                <div class="col-6 pollution-text d-flex flex-column text-right">
+                    <h2> The Effect CO2 on melting ice is : </h2>
+                    <h3 class="ice_data" ></h3>
+                </div>
+               
+            </div>
+
+
+
+
+        </section>
+
+    </section>
+
+</body>
+<script src="assets/JS/index.js"></script>
+
+</html>

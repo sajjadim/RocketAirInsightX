@@ -12,7 +12,7 @@ def ChatEnchancementSuggestion(template,arguments,predictionResult):
         environmental impact of the rocket's launch. ''')
     
 
-    headers = {'Authorization': 'Bearer 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'}
+    headers = {'Authorization': 'Bearer YOUR_API_TOKEN'}
     payload = {"model": "text-davinci-003", "prompt": prompt, "temperature": 0, "max_tokens": 700}
     response = requests.post(url, headers=headers, json=payload)
     

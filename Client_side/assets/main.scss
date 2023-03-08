@@ -28,3 +28,28 @@ body{
     position:relative;
 }
 
+::-webkit-scrollbar {
+    width: 7px;
+    background-color: #df0a0a57;
+    border-radius: 30px;
+  }
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background-color: #df0a0a25;
+    border-radius: 30px;
+  }
+  
+  /* Handle */
+ ::-webkit-scrollbar-thumb {
+    background: hsla(0, 90%, 4%, 0.60);
+    border-radius: 15px;
+  }
+  
+  /* Handle on hover */
+ ::-webkit-scrollbar-thumb:hover {
+    background: hsla(0, 90%, 4%, 0.8);
+
+    border-radius: 15px;
+
+  }

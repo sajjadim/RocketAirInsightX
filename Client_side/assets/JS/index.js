@@ -19,7 +19,7 @@ function DeactiveLanding(){
     setTimeout(()=>{
         landing.style.display = "none";
         result.style.animation = `faderesult ${timeforfade}s 1`
-        result.display = "flex"
+        result.style.display = "block"
         document.body.style.overflowY = "auto"
     },timeforfade *1000)
 }

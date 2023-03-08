@@ -40,10 +40,10 @@ pip install Pandas
 
 
 Here are some Preview of our program in action:
-![Landing Page](Client_side/assets/Project_images/1.png?raw=true "Inputs page")
-![Result Page](Client_side/assets/Project_images/2.png?raw=true "Amount Of Pollution")
-![Result Page](Client_side/assets/Project_images/3.png?raw=true "AI Suggestions")
-![Result Page](Client_side/assets/Project_images/3.png?raw=true "Amount of Ices Melted by Amount of Pollution")
+![Landing Page](tree/main/Client_side/assets/Images/1.png "Inputs page")
+![Result Page](tree/main/Client_side/assets/Images/2.png "Amount Of Pollution")
+![Result Page](tree/main/Client_side/assets/Images/3.png "AI Suggestions")
+![Result Page](tree/main/Client_side/assets/Images/4.png "Amount of Ices Melted by Amount of Pollution")
 
 
 

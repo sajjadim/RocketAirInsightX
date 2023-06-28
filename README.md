@@ -1,4 +1,4 @@
-## replace your chat gpt api to access all the features. without ChatGPT API token some features may not work properlly. you can replace you token by opening ChatGPT.py and changing YOUR_API_TOKEN with your token.
+## Replace your chat gpt api to access all the features. without ChatGPT API token some features may not work properlly. you can replace you token by opening ChatGPT.py and changing YOUR_API_TOKEN with your token.
 
 # RocketAirInsightX
 Gaining Insight into Air Pollution and Rocket Performance with Gradient Boosting Regression.

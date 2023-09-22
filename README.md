@@ -1,10 +1,10 @@
-## Replace your chat gpt api to access all the features. without ChatGPT API token some features may not work properlly. you can replace you token by opening ChatGPT.py and changing YOUR_API_TOKEN with your token.
+## Replace your chat gpt api to access all the features. without ChatGPT API token some features may not work properly. you can replace your token by opening ChatGPT.py and changing YOUR_API_TOKEN with your token.
 
 # RocketAirInsightX
 Gaining Insight into Air Pollution and Rocket Performance with Gradient Boosting Regression.
 
 # Description
-The purpose of this program is to gather input data regarding rocket properties, such as maximum altitude, fuel type, fuel mass, and propellant mass. The resulting model calculates the amount of pollution emitted into the atmosphere during a rocket launch this gases includes Black CO2, Black Carbon, NOx, nClx, Stratospheric Alumina and Methane. As the space industry continues to expand, it is important to monitor the effects of these vehicles. By doing so, we can work towards using eco-friendly fuel and developing facilities that promote environmentally-conscious space exploration in the future.
+The purpose of this program is to gather input data regarding rocket properties, such as maximum altitude, fuel type, fuel mass, and propellant mass. The resulting model calculates the amount of pollution emitted into the atmosphere during a rocket launch. Emitted gases include Black CO2, Black Carbon, NOx, nClx, Stratospheric Alumina and Methane. As the space industry continues to expand, it's important to monitor the effects of these vehicles. By doing so, we can work towards using eco-friendly fuels and developing facilities that promote environmentally-conscious space exploration in the future.
 
 # Features
   Amount of Emmited Pollution 

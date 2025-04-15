@@ -8,8 +8,7 @@ import joblib
 
 
 def predict(fuel_Type, total_Propellant_Mass, max_altitude, total_fuel_mass):
-    prediction_input = np.array([[fuel_Type, total_Propellant_Mass, max_altitude, total_fuel_mass]], dtype=np.float32)  
-    # Load the trained model from a saved file
+    
     model = joblib.load('gradient_boosting_regression_model.joblib')
     new_data = pd.DataFrame({'Fuel_Type_main': [fuel_Type],
                              'Total_Propellant_Mass_kg_main': [total_Propellant_Mass],

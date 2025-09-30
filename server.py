@@ -1,8 +1,8 @@
-from Predicting  import predict
-from flask import Flask, request,jsonify
+from inference  import predict
+from flask import Flask, request, jsonify
 from flask_cors import CORS, cross_origin
 import requests
-from ChatGpt import ChatEnchancementSuggestion,ChatWritingOverview
+from llm import ChatEnchancementSuggestion,ChatWritingOverview
 app = Flask(__name__)
 
 CORS(app)
